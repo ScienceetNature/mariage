@@ -11,6 +11,7 @@ Mariage de Léa & Steven 2021-2022 - Tous droits pas réservés
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sacramento|Rochester|Tangerine|Sofia|Trirong">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
@@ -25,11 +26,10 @@ Mariage de Léa & Steven 2021-2022 - Tous droits pas réservés
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="index.html">Accueil</a></li>
+											<li><a href="generic.html">Photothèque</a></li>
+											<li><a href="elements.html">Autre ?</a></li>
+
 										</ul>
 									</div>
 								</li>
@@ -51,28 +51,120 @@ Mariage de Léa & Steven 2021-2022 - Tous droits pas réservés
 						<a href="#one" class="more scrolly">En savoir plus</a>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
+<!-- style des photos de la classe ZERO -->
+<style>
+.imagelea {
+background-image:url(images/léa.jpg);  background-size:cover; opacity: 0.7
+}
+.imagesteven {
+background-image:url(images/steven.jpg);  background-size:cover; opacity: 0.7
+}
+
+@keyframes color-change {
+ 0% { color: #880E4F; }
+ 10% { color: #AD1457; }
+ 20% { color: #C2185B; }
+ 30% { color: #D81B60; }
+ 40% { color: #E91E63; }
+ 50% { color: #F48FB1; }
+ 60% { color: #E91E63; }
+ 70% { color: #D81B60; }
+ 80% { color: #C2185B; }
+ 90% { color:  #AD1457; }
+ 100% { color: #880E4F; }
+}
+
+#crcl_lea{
+display:table-cell;
+vertical-align:auto;
+background-image:url(images/léa.jpg);
+background-size:cover;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+line-height:2em;
+border: 1px solid rgba(255,255,255,0.7);
+color: white;
+text-align: center;
+}
+
+#crcl_steven{
+display:table-cell;
+vertical-align:auto;
+background-image:url(images/steven.jpg);
+background-size:cover;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+line-height:2em;
+border: 1px solid rgba(255,255,255,0.7);
+color: white;
+text-align: center;
+margin-left:20px;
+}
+
+</style>
+					<!-- Zero -->
+
+					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Programme de la journée<br />
-								Du vendredi soir au dimanche matin</h2>
-								<p>Blablabla on va boire, on va manger... on va teufer<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2 style="color:black">Nos amoureux</h2>
+								<p style="color:black">Le coup de foudre au premier regard, une belle blonde et un bel étalon<br />
+								voici nos deux âmes soeurs <br />
+								<p style="text-transform: uppercase ; color:black ; font-style: italic">Léa Chambon & Steven Alves Sampaio</p> </p>
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+							<ul class="features">
+
+
+								<img src="images/léa.jpg" style="border-radius:50% ; outline: 3px solid #F0E1D7;   outline-offset: -10px; width:300px ; height: 300px"></img>
+
+
+								<img src="images/steven.jpg" style="border-radius:50%;  outline: 3px solid #F0E1D7;   outline-offset: -10px; width:300px; height: 300px; margin-left:20px"></img>
+
+
 							</ul>
 						</div>
 					</section>
 
+				<!-- One -->
+
+
+				<section class="spotlight">
+					<div class="image"><img src="images/naissance.jpg" alt="" /></div>
+					<div class="content">
+						<h2 style="animation: color-change 5s infinite">Timeline de l'amour</h2>
+						<h3>Naissance</h3>
+						<p>Léa est née le 27 mars 1997. Steven est venu au monde le 18 novembre 1992.</p>
+					</div>
+				</section>
+				<section class="spotlight" style="border:1px solid #F0E1D7; border-left:none ; border-right:none">
+					<div class="image"><img src="images/ecole.jpg" alt="" /></div><div class="content">
+						<h2>A l'école</h2>
+						<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/rencontre.jpg" alt="" /></div><div class="content">
+						<h2>Rencontre<br />
+					La fameuse soirée</h2>
+						<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+					</div>
+				</section>
+				<section class="spotlight" style="border:1px solid #F0E1D7; border-left:none ; border-right:none">
+					<div class="image"><img src="images/demande.jpg" alt="" /></div><div class="content">
+						<h2>Demande en<br />
+				mariage</h2>
+						<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+					</div>
+				</section>
+
+
 				<!-- Two -->
-<section id="cta" class="wrapper style4" style="">
+<section id="cta" class="wrapper style4">
 
 							<div class="imgbox">
-							<img src ="images/bouquet1.png" alt="Flower" class="center-fit" style="margin-top:-12%"/>
+							<img src ="images/bouquet1.png" alt="Flower" class="center-fit" style="margin-top:-12%; z-index:5"/>
 							<p class="h7">~Compte à rebours~</p>
 							<p class="h8" id="demo"></p>
 						</div>
@@ -110,84 +202,106 @@ Mariage de Léa & Steven 2021-2022 - Tous droits pas réservés
 					</script>
 
 				</section>
+
+
 					<section id="two" class="wrapper alt style2">
 
 						<div class="content">
-								<h2 style="text-align:center ; margin-top:20px">Destination l'Ardèche</h2>
+								<h2 style="text-align:center ; margin-top:20px ; margin-bottom:auto; color:#E69EC2; animation: color-change 5s infinite"><img src=images/loca.png alt="Où ça ?" align=middle width=7% height=7%>Destination l'Ardèche</h2>
 							</div>
 <!-- Quand je supprime cette DIV, l'IFRAME du dessous réapparait, autrement il ne fonctionne pas.... -->
 							<div>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.1978900725285!2d4.242385815504596!3d44.67592337909951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b4dcc87c809b8b%3A0xb4499d17d64dde7!2s475%20Route%20du%20Puy%20en%20Velay%2C%2007330%20Thueyts!5e1!3m2!1sfr!2sfr!4v1620927003222!5m2!1sfr!2sfr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 							</div>
 
-						<section class="spotlight">
-							<div class="image"><img src="images/trump.gif" alt="" /></div>
+
+						<section class="spotlight" style="background-color:#F0E1D7">
+							<div class="image"><img src="images/picpic.jpg" alt="" /></div>
 							<div class="content">
-								<h2>Timeline de l'amour<br />
-							Naissance</h2>
-								<p>Léa est alcoolique des chats. Steven le portos est né en Bulgarie.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Rencontre<br />
-							La fameuse soirée</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic08.jpg" alt="" /></div>
-							<div class="content">
-								<h2>Répondre au questionnaire<br />
-								Google formulaire</h2>
-								<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdub5JdBHcSW7QBtzOWKh0kNYfWA0tzZXLvFPP4stZsG89-aw/viewform?embedded=true" width="640" height="1193" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe></p>
+								<h2 style="color:black; text-align:center">Signifiez de votre venu !<br />
+							<b style="color:black">	Pensez à </b><b style="animation: color-change 5s infinite">VALIDER</b></h2>
+								<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdub5JdBHcSW7QBtzOWKh0kNYfWA0tzZXLvFPP4stZsG89-aw/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe></p>
 							</div>
 						</section>
 					</section>
+
+					<!-- One -->
+						<section id="one" class="wrapper style1 special">
+							<div class="inner">
+								<header class="major">
+									<h2 style="color:black">Hebergement pour les invités<br />
+									</h2>
+									<p style="color:black">Ici les liens vers les herbergements ou alors des photos<br />
+									fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								</header>
+								<ul class="icons major">
+									<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
+									<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
+									<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+								</ul>
+							</div>
+						</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Hebergement pour les invités</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2 style="color:black">Programme de la journée</h2>
+								<p style="color:black">Du vendredi soir au dimanche matin<br />
+								Les icones en fluo vont dégager, voir être remplacee par des pertinentes.</p>
 							</header>
 							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">8 heure</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">10 heure</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">midi</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">14 heure</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">19 heure</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li >
+									<h3 style="color:black">Fiesta</h3>
+									<p style="color:black">Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
 							</ul>
 						</div>
 					</section>
 
+					<!-- cagnotte -->
+						<section id="one" class="wrapper style1 special">
+							<div class="inner">
+								<header class="major">
+									<h2 style="color:black">Lien vers la cagnotte<br />
+									</h2>
+									<p style="color:black">Ici les liens vers la cagnotte leechee (voir integration direct)<br />
+								ou alors renvoie sur une autre page du site pour liste d'objets. Préciser ici aussi comment on doit raquer l'argent (le jour J, paypal, cheque etc.)</p>
+								</header>
+								<ul class="icons major">
+									<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
+									<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
+									<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+								</ul>
+							</div>
+						</section>
+
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Nous contacter</h2>
+								<p>Là je donne les liens de vos Insta, Facebook, Mail, etc (à la place des boutons).</p>
 							</header>
 							<ul class="actions stacked">
 								<li><a href="#" class="button fit primary">Activate</a></li>

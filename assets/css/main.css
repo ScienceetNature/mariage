@@ -190,6 +190,7 @@ input, select, textarea {
 					 margin: auto;
 			 }
 
+
 .h7 {
 
 		 font-family: "Tangerine", sans-serif; font-size: 7vw; text-align:center;  margin-top:auto; margin-bottom: auto; vertical-align:middle;
@@ -2732,7 +2733,7 @@ input, select, textarea {
 			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
 		}
-
+/* MODIFER FOND TIMELINE DE L'AMOUR */
 		.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
@@ -2848,7 +2849,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #a5cf9e;
 			color: #c8ece9;
 		}
 
@@ -3005,13 +3006,13 @@ input, select, textarea {
 				}
 
 			}
-
+/* ça c'est la couleur de fon de l'ardeche */
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color:  transparent;
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #F0E1D7;
 			color: #d3d4e4;
 		}
 
