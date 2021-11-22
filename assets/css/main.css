@@ -170,6 +170,9 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
+	h2 {
+		 font-family: "Petemoss";
+	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -189,6 +192,12 @@ input, select, textarea {
 					 max-height: 100vh;
 					 margin: auto;
 			 }
+
+.h10 {
+
+	font-family: "Tangerine", sans-serif; font-size: 7vw; text-align:center;  margin-top:auto; margin-bottom: auto; vertical-align:middle;
+
+}
 
 
 .h7 {
@@ -2735,43 +2744,43 @@ input, select, textarea {
 		}
 /* MODIFER FOND TIMELINE DE L'AMOUR */
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(255, 218, 187, 0.075);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(255, 218, 187, 0.15);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(255, 218, 187, 0.225);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(255, 218, 187, 0.3);
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: rgba(255, 218, 187, 0.375);
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: rgba(255, 218, 187, 0.45);
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			background-color: rgba(255, 218, 187, 0.525);
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(255, 218, 187, 0.6);
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
+			background-color: rgba(255, 218, 187, 0.675);
 		}
 
 		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
+			background-color: rgba(255, 218, 187, 0.75);
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2849,7 +2858,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #a5cf9e;
+			background-color: #FFDABB;
 			color: #c8ece9;
 		}
 
@@ -3012,7 +3021,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #F0E1D7;
+			background-color: #FFEEEE;
 			color: #d3d4e4;
 		}
 
@@ -3923,7 +3932,7 @@ input, select, textarea {
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 1.7em;
 		}
 
 			#footer .icons a {
