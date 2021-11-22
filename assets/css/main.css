@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #ffeeee;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2805,6 +2805,8 @@ input, select, textarea {
 					display: none;
 				}
 
+
+
 				.spotlight .image {
 					width: 100%;
 				}
@@ -2814,6 +2816,7 @@ input, select, textarea {
 					max-width: none;
 					text-align: center;
 					width: 100%;
+				color:black;
 				}
 
 		}
@@ -3486,7 +3489,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: rgba(255, 204, 153,0.7);
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3735,7 +3738,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #ffeeee;
 			display: block;
 			width: 100%;
 			height: 100%;
